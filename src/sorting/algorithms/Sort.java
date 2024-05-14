@@ -12,13 +12,16 @@ public class Sort {
         sort.printArray(arr);
 
         //Executing Selection sort on un-sorted array
-        SelectionSort selectionSort = new SelectionSort();
-        selectionSort.executeSort(arr);
+        //SelectionSort selectionSort = new SelectionSort();
+        //selectionSort.executeSort(arr);
+
+        //Executing Bubble sort on un-sorted array
+        BubbleSort bubbleSort = new BubbleSort();
+        bubbleSort.executeSort(arr);
 
         //Print sorted array.
         System.out.print("The sorted array post executing sorting algorithm is: ");
         sort.printArray(arr);
-
 
     }
 

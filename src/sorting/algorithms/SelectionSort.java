@@ -6,6 +6,8 @@ package sorting.algorithms;
        Time complexity - O(N^2) for best, average, worst case.
        Auxiliary Space - O(1)
        Unstable and In-place sort
+       (N-1) passes
+       Max O(N) swaps
    */
 public class SelectionSort implements Sorting {
 
