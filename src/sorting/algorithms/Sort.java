@@ -4,7 +4,7 @@ public class Sort {
 
     public static void main(String[] args) {
 
-        int arr[] = {65, 78, 34, 22, 11, 67, 2, 89, 10, 48, 30, 20, 1, 8, 56};
+        int arr[] = {65, 78, 34, 22, 11, 67, 2, 89, 10, 48, 30, 2, 20, 1, 8, 56};
         Sort sort = new Sort();
 
         //Print un-sorted array.
@@ -16,8 +16,12 @@ public class Sort {
         //selectionSort.executeSort(arr);
 
         //Executing Bubble sort on un-sorted array
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.executeSort(arr);
+        //BubbleSort bubbleSort = new BubbleSort();
+        //bubbleSort.executeSort(arr);
+
+        //Executing Insertion sort on un-sorted array
+        InsertionSort insertionSort = new InsertionSort();
+        insertionSort.executeSort(arr);
 
         //Print sorted array.
         System.out.print("The sorted array post executing sorting algorithm is: ");

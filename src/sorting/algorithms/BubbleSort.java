@@ -11,6 +11,7 @@ public class BubbleSort implements Sorting {
         (N*(N-1))/2 comparisons
         Auxiliary Space - O(1)
         Time complexity - O(N^2) for worst and average case. O(N) for best case (already sorted array)
+        Stable and In-place sort
      */
     @Override
     public void executeSort(int[] arr) {
