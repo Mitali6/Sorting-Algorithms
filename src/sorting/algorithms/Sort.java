@@ -20,8 +20,12 @@ public class Sort {
         //bubbleSort.executeSort(arr);
 
         //Executing Insertion sort on un-sorted array
-        InsertionSort insertionSort = new InsertionSort();
-        insertionSort.executeSort(arr);
+        //InsertionSort insertionSort = new InsertionSort();
+        //insertionSort.executeSort(arr);
+
+        //Executing Merge sort on un-sorted array
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.executeSort(arr);
 
         //Print sorted array.
         System.out.print("The sorted array post executing sorting algorithm is: ");
